@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from './Components/Navbar'
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       </div>
 
       <div className='container mx-auto px-8'></div>
+      <Navbar />
     </div>
   )
 }

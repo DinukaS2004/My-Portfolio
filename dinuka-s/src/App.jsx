@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Components/Navbar'
+import Hero from './Components/Hero'
 
 const App = () => {
   return (
@@ -10,8 +11,12 @@ const App = () => {
           <div className="absolute left-0 right-0 top-[-10%] h-[1000px] w-[1000px] rounded-full bg-[radial-gradient(circle_400px_at_50%_300px,#fbfbfb36,#000)]"></div></div>
       </div>
 
-      <div className='container mx-auto px-8'></div>
-      <Navbar />
+      <div className='container mx-auto px-8'>
+
+        <Navbar />
+      <Hero />
+      </div>
+      
     </div>
   )
 }

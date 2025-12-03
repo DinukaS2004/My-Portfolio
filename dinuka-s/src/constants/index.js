@@ -9,33 +9,37 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    role: "Undergraduate Student — BSc (Hons) Computer Science",
+    company: "Informatics Institute of Technology (IIT) in collaboration with University of Westminster",
+    period: "2023 — Present",
+    description: [
+      "At the Informatics Institute of Technology (IIT), in collaboration with the University of Westminster, I am currently pursuing my Computer Science degree, developing strong foundational knowledge in programming, software engineering, web development, and machine learning. Throughout my academic journey, I have worked on multiple coursework-based and independent projects where I applied concepts such as Java OOP, full-stack development, and data visualisation. My degree has also helped me improve problem-solving, teamwork, and project management skills through collaborative group assignments and Agile-based workflows."
+    ]
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    role: "Full-Stack Developer — Personal Projects",
+    company: "Self-driven Development",
+    period: "2023 — Present",
+    description: [
+      "I have built several self-driven full-stack applications using technologies such as Java, Python, Node.js, React, and SQL/NoSQL databases. One of my key projects is a complete Inventory Management System developed using Java for both frontend and backend. I have also experimented with building AI-assisted and mobile-friendly features, including a media upload module for the LiveCoach.AI platform. These projects have strengthened my understanding of backend logic, API development, UI design, deployment, and handling real-world development challenges independently."
+    ]
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    role: "Hackathon Participant",
+    company: "Team-Based Tech Competitions",
+    period: "2024 — Present",
+    description: [
+      "As a hackathon participant, I have collaborated with teammates to design and build functional prototypes under time constraints. These experiences pushed me to think creatively, work efficiently, and integrate features quickly while maintaining code quality. I contributed to backend development, UI wireframing, and AI-related components during these competitions. Participating in hackathons has strengthened my teamwork, leadership, adaptability, and rapid problem-solving abilities."
+    ]
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+    role: "Photography & Media Volunteer",
+    company: "Various Events & Organisations",
+    period: "2022 — Present",
+    description: [
+      "Alongside my technical journey, I have volunteered as a photographer and media creator for various events and organisations. I have captured and edited visual content, supported event branding, and coordinated with teams to deliver media assets on time. This role enhanced my creativity, communication, and professional discipline, while also helping me develop strong visual storytelling skills."
+    ]
+  }
 ];
 
 export const PROJECTS = [
@@ -70,7 +74,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "302/4, Wackwella Road, Galle. 80000",
+  phoneNo: "+94 762932621 ",
+  email: "dinukad735@gmail.com",
 };

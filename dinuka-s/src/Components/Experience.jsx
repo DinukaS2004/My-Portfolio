@@ -1,15 +1,23 @@
 import React from "react";
 import { EXPERIENCES } from "../constants";
 const experiences = EXPERIENCES;
+import { motion } from "framer-motion";
 
 const Experience = () => {
   return (
     <section id="experience" className="py-20 px-6 lg:px-20 text-stone-300">
-      <h2 className="text-4xl font-semibold text-center mb-16">Experience</h2>
+      <motion.h2 
+        whileInView ={{opacity:1,y:0}}
+        initial={{opacity:0,y:-100}}
+        transition={{duration:0.5}}
+      className="text-4xl font-semibold text-center mb-16">Experience</motion.h2>
 
       <div className="space-y-12">
         {experiences.map((exp, index) => (
-          <div
+          <motion.div
+          whileInView={{opacity:1,x:0}}
+                    initial={{opacity:0,x:-100}}
+                    transition={{duration:1.5}}
             key={index}
             
           >
@@ -22,7 +30,7 @@ const Experience = () => {
                 <li key={i}>{item}</li>
               ))}
             </ul>
-          </div>
+          </motion.div>
         ))}
       </div>
     </section>
